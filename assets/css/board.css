@@ -17,8 +17,18 @@ td {
     border: 1px solid #e7e1e1;
     cursor: pointer;
     transition: .3s all;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
 }
 
 td:hover {
     background: #F3F3F3;
+}
+
+.mark-red {
+    color: red;
+}
+.mark-blue {
+    color: blue;
 }
