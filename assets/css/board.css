@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    background: #EEE;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e7e1e1;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+td:hover {
+    background: #F3F3F3;
+}
